@@ -1,0 +1,21 @@
+name: animationimage
+description: "A Flutter project showcasing Rive (Flare) animations."
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flare_flutter: ^3.0.2 # Add Flare Flutter for Rive animations
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Flower.jpg # Indent assets list properly under the flutter key
